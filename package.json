@@ -1,0 +1,26 @@
+{
+  "name": "redux-global-loading",
+  "version": "1.0.0",
+  "description": "A Redux Middleware that show a Loading when wait resolve all promise-middleware's promises",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilouro/redux-global-loading.git"
+  },
+  "keywords": [
+    "redux",
+    "react",
+    "middleware",
+    "loading",
+    "promises"
+  ],
+  "author": "Guilherme Louro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilouro/redux-global-loading/issues"
+  },
+  "homepage": "https://github.com/guilouro/redux-global-loading#readme"
+}
