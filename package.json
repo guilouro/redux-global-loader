@@ -2,9 +2,9 @@
   "name": "redux-global-loading",
   "version": "1.0.0",
   "description": "A Redux Middleware that show a Loading when wait resolve all promise-middleware's promises",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "babel": "./node_modules/.bin/babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/guilouro/redux-global-loading/issues"
   },
-  "homepage": "https://github.com/guilouro/redux-global-loading#readme"
+  "homepage": "https://github.com/guilouro/redux-global-loading#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
 }
