@@ -1,7 +1,7 @@
-export default store => {
+export default (store) => {
     const { dispatch } = store;
 
-    return next => action => {
+    return next => (action) => {
         ['_PENDING', '_FULFILLED', '_REJECTED'].forEach((item, key) => {
             if (action.type.endsWith(item)) {
                 dispatch({
