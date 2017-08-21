@@ -1,3 +1,3 @@
-export globalLoadingMiddleware from './middleware';
+export globalLoaderMiddleware from './middleware';
 export loadingAll from './reducer';
 export Loading from './container';

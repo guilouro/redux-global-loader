@@ -1,7 +1,7 @@
 # Redux Global Loader
 
-[![Build Status](https://travis-ci.org/guilouro/redux-global-loading.svg?branch=master)](https://travis-ci.org/guilouro/redux-global-loading)
-[![Coverage Status](https://coveralls.io/repos/github/guilouro/redux-global-loading/badge.svg?branch=master)](https://coveralls.io/github/guilouro/redux-global-loading?branch=master)
+[![Build Status](https://travis-ci.org/guilouro/redux-global-loader.svg?branch=master)](https://travis-ci.org/guilouro/redux-global-loader)
+[![Coverage Status](https://coveralls.io/repos/github/guilouro/redux-global-loader/badge.svg?branch=master)](https://coveralls.io/github/guilouro/redux-global-loader?branch=master)
 
 **Obs**: [Redux Promise Middleware](https://github.com/pburtchaell/redux-promise-middleware/) is required
 
@@ -13,18 +13,18 @@ A redux middleware with [redux-promise-middleware's](https://github.com/pburtcha
 #### Install with npm
 
 ```sh
-$ npm install --save redux-global-loading
+$ npm install --save redux-global-loader
 ```
 
 #### Import the middleware and include it after `promiseMiddleware()` in your `applyMiddleware`
 
 ```jsx
-import { globalLoadingMiddleware }  from 'redux-global-loading';
+import { globalLoaderMiddleware }  from 'redux-global-loader';
 
 composeStoreWithMiddleware = applyMiddleware(
     ...
     promiseMiddleware(),
-    globalLoadingMiddleware,
+    globalLoaderMiddleware,
     ...
 )(createStore);
 ```
@@ -33,7 +33,7 @@ composeStoreWithMiddleware = applyMiddleware(
 
 ```jsx
 import { combineReducers } from 'redux';
-import { loadingAll } from 'redux-global-loading';
+import { loadingAll } from 'redux-global-loader';
 
 ...
 combineReducers({
@@ -47,7 +47,7 @@ combineReducers({
 ### Usage
 
 ```jsx
-import { Loading }  from 'redux-global-loading';
+import { Loading }  from 'redux-global-loader';
 
 ...
 render() {
@@ -65,5 +65,5 @@ render() {
 ## Contributing
 
 If you want to contribute with this component:
-[Contributing Documentation](https://github.com/guilouro/redux-global-loading/blob/master/CONTRIBUTING.md).
+[Contributing Documentation](https://github.com/guilouro/redux-global-loader/blob/master/CONTRIBUTING.md).
 
