@@ -10,13 +10,13 @@ That's a redux middleware with [redux-promise-middleware's](https://github.com/p
 
 ## Installation
 
-### Install with npm
+#### Install with npm
 
 ```sh
 $ npm install --save redux-global-loading
 ```
 
-### Import the middleware and include it after `promiseMiddleware()` in your `applyMiddleware`
+#### Import the middleware and include it after `promiseMiddleware()` in your `applyMiddleware`
 
 ```jsx
 import { globalLoadingMiddleware }  from 'redux-global-loading';
@@ -29,7 +29,7 @@ composeStoreWithMiddleware = applyMiddleware(
 )(createStore);
 ```
 
-### Import the reducer `loadingAll` and include it in the `combineReducers`
+#### Import the reducer `loadingAll` and include it in the `combineReducers`
 
 ```jsx
 import { combineReducers } from 'redux';
@@ -44,7 +44,7 @@ combineReducers({
 ...
 ```
 
-## Usage
+### Usage
 
 ```jsx
 import { Loading }  from 'redux-global-loading';
@@ -67,6 +67,3 @@ render() {
 If you want to contribute with this component:
 [Contributing Documentation](https://github.com/guilouro/redux-global-loading/blob/master/CONTRIBUTING.md).
 
-## License
-
-[MIT License](https://github.com/guilouro/redux-global-loading/blob/master/LICENSE.md)

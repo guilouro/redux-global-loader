@@ -10,7 +10,7 @@
     "test:coverage": "NODE_ENV=test ./node_modules/.bin/nyc --reporter=html --reporter=text ./node_modules/.bin/mocha tests/setup.js tests/*.spec.js",
     "lint": "./node_modules/.bin/eslint src",
     "lint:fix": "./node_modules/.bin/eslint src --fix",
-    "prepush": "npm t"
+    "prepush": "npm run lint && npm t"
   },
   "repository": {
     "type": "git",
