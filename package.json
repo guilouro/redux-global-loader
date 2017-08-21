@@ -19,7 +19,7 @@
     "promises"
   ],
   "author": "Guilherme Louro",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/guilouro/redux-global-loading/issues"
   },
