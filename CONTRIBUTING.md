@@ -9,4 +9,4 @@
 
 **After your pull request is merged**, you can safely delete your branch.
 
-### [<-- Back](https://github.com/guilouro/redux-global-loading/)
+### [<-- Back](https://github.com/guilouro/redux-global-loader/)
