@@ -4,7 +4,8 @@
   "description": "A Redux Middleware that show a Loading when wait resolve all promise-middleware's promises",
   "main": "lib/index.js",
   "scripts": {
-    "babel": "./node_modules/.bin/babel src -d lib"
+    "babel": "./node_modules/.bin/babel src -d lib",
+    "test": "./node_modules/.bin/mocha tests --compilers js:babel-core/register"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,10 @@
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.0",
-    "babel-preset-stage-0": "^6.24.1"
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "sinon": "^3.2.1",
+    "sinon-chai": "^2.13.0"
   }
 }
