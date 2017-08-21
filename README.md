@@ -5,7 +5,7 @@
 
 **Obs**: [Redux Promise Middleware](https://github.com/pburtchaell/redux-promise-middleware/) is required
 
-That's a redux middleware with [redux-promise-middleware's](https://github.com/pburtchaell/redux-promise-middleware/) integration that show the Loading while there is one or more than one pending promises in current page. Then when all promise is completed, the loading is hide.
+A redux middleware with [redux-promise-middleware's](https://github.com/pburtchaell/redux-promise-middleware/) integration that shows the Loading while there is one or more than one pending promises in the current page. The loading state will be hidden as soon as all Promises gets completed.
 
 
 ## Installation
