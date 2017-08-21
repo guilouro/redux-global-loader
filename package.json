@@ -1,10 +1,10 @@
 {
   "name": "redux-global-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Redux Middleware that show a Loading when wait resolve all promise-middleware's promises",
   "main": "lib/index.js",
   "scripts": {
-    "babel": "./node_modules/.bin/babel src -d lib",
+    "build": "./node_modules/.bin/babel src -d lib",
     "test": "NODE_ENV=test ./node_modules/.bin/mocha --require tests/setup.js tests/*.spec.js",
     "test:tdd": "npm t -- --watch",
     "test:coverage": "NODE_ENV=test ./node_modules/.bin/nyc --reporter=html --reporter=text ./node_modules/.bin/mocha tests/setup.js tests/*.spec.js",
