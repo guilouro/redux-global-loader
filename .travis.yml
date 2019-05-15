@@ -9,11 +9,3 @@ script:
 after_script:
 - NODE_ENV=test ./node_modules/.bin/nyc npm test && ./node_modules/.bin/nyc report
   --reporter=text-lcov | coveralls
-deploy:
-  provider: npm
-  email: guilherme-louro@hotmail.com
-  api_key:
-    secure: dCemGCpMeMZlOme1T7jt5fBuE2DmUbMXBjmdh9mlXr+KsiKHUPofHhJPMB+AJqKBIXblVgFpK5+LqJt2kVVxT6OMMSV6SQUiaU2DKxuXnzF0Dp/yZSs6mRmdo0MYmPgt86sDFcZtoccc2qolHbYYMQjpTL3LStG1clJpKnN5zCfbDjquZ6V/huw/vNd3aQ2dlGKu5LxeN+WoM+NwVkCFHKWBv36ep6zd9aCJATO49oXacBxUhHMCfp2wyiqBkw0fyHNvUj7pCREaEooMG4ZDPlwagKcBDccFUZsrXCU5Zf2EM5Najdh5b+K+LBfH51rbxG+/NRVRuyXQR7JGx/pHtfvVtoXpXUb4so4MMne9aB7kpjTlnejAv/JVm54+TKuoPIhaNJIJCcf4+XBVWNW7XI5anWruq6Q03mLoJJ1gJBC2trUIwEZyi7gWBvU6tuejPghMiHmUGkBW+Af3Sv8h7ZYyA1wURkh3FvTPnjH+mZi02asXIwSWly3LqrOVm4oo0YAtnUw1xSTH6Icy1w6QBbdg2fBvcG5Qvu0XLHQJE9k7FM+gqansp9KOOfLVHD93VSek9wX4UUOobisGXTMigQIzdv3D0bEM3sSvyjPRizprsaoTWhg6txr2fFi8uyyZ6w/5Noqawzf49XWKyjreMW8jysFPmF8kfqwHymUWU+c=
-  on:
-    tags: true
-    repo: guilouro/redux-global-loader
