@@ -54,7 +54,7 @@ render() {
     return (
         <Loading>
             ...
-            <!-- Your loading component here -->
+            // Your loading component here
             ...
         </Loading>
     );
